@@ -9,7 +9,9 @@ Additional nodes can be added if you have multiple Windows machines.
 For a VM you will need to go to "Tools", "System Devices" 
 and find your 4000 series GPU IOMMU group and attach vfio at boot and reboot.
 NVIDIA GeForce RTX GPU (4050-4090)
-Decent processor
+Decent processor Ryzen 5000, 7000 series or equivalent intel. You will benefit from a 16 core processor 
+with a GPU like RTX 4050, 4060, 4070 super or the encoder will still run from my testing, but only at 50% utilization.
+
 Preparation
 
 Update your NVIDIA drivers to the latest version.
