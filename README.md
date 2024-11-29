@@ -1,7 +1,7 @@
 # AV1-Media-Transcode-Guide
  Handbrake-Tdarr-Setup-Customization
 
- 
+This guide is intended to be viewed RAW.
 ﻿Here is a written version of the guide in a step by step readable and organized format:
 System Requirements
 Windows 10/11 machine OR VM running on unRAID.
