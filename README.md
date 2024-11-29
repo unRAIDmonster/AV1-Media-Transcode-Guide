@@ -51,6 +51,7 @@ Subtitle behavior chose your desired language or ANY move it to the right and sa
 Testing
 You can skip this step if you want to test the results before executing the rest of the process.
 Run Handbrake with your selected preset and video file.
+Tdarr nodes: Turn on allow GPU to do CPU tasks.
 Tdarr Library
 At the top, click Library (and yes, you can create multiple ones later).
 Click Library+ and configure the mini tabs:
