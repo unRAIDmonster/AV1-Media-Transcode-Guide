@@ -33,7 +33,8 @@ Set the format to MKV, resolution limit to None, and dimensions as needed.
 Configure video settings:
 Video Encoder: AV1 10-bit (NVEnc)
 Framerate: Same as source & Constant Framerate
-Encoder Option: Encoder Present: Slowest (slide right)
+Encoder Option: Encoder Present: Slowest (slide right). I chose medium because encoding is much faster.
+I also chose 38 CQ for movies and 35CQ for series with great results. Download my presets at the bottom of this guide if you like.
 Quality: Your desired setting (note that a lower number results in a larger file size)
 Configure audio settings:
 Codec: E-AC Passthru
@@ -72,6 +73,18 @@ I recommend this: For nice encoding with virtually no loss.
 Here is links to my presets in case you want to use pre made ones.
 I found that the movie settings ran better on medium
 
-Different instructions:
+My preset instructions:
 create a folder called presets in C:/Tdarr
+Drag t01 and ts2 into the same folder on each and every machine you plan to run nodes.
+In tdarr server under library, Transcode options and select video transcode customizable
+transcode_arguments:
+
+Movies
+--preset-import-file "C:/Tdarr/presets/t01.json" -Z "t01"
+https://mega.nz/file/XAliEIwZ#4WD7UG8IM9VearSyZsDmCjC6ggwKZ3aqh6TvjXpcDRg
+
+Tv
+--preset-import-file "C:/Tdarr/presets/ts2.json" -Z "ts2"
+https://mega.nz/file/fctR3CjL#Kl43b7_Z6DIDNBih13YDX08-d3M98-10o05TVnF-rYc
+
 
