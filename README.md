@@ -42,10 +42,12 @@ Save the preset with the following settings:
 Name: t1
 Resolution Limit: None
 Audio:
-Track Selection Behavior: All Matching Selected Languages
+Track Selection Behavior: All Matching Selected Languages. 
+Choose ANY because some films there is other languages mixed with English and movies need this setting.
 'Auto Passthru' Behavior: Check all of them (yes, all of them)
 Fallback Encoder: None
 Audio encoder settings for each chosen track: Codec > Auto Passthru
+Subtitle behavior chose your desired language or ANY move it to the right and save.
 Testing
 You can skip this step if you want to test the results before executing the rest of the process.
 Run Handbrake with your selected preset and video file.
