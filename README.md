@@ -58,7 +58,7 @@ Disable all options or delete them except for New File Size Check!
 Add the following custom transcode option:
 Community: Video Transcode Customisable
 Set codecs to exclude: av1 (or av1,hevc if you want to leave x265 files alone)
-Set transcode arguments: --preset-import-gui -Z "t1"
+Set transcode arguments: --preset-import-gui -Z "t01"
 Set output container: .mkv
 Click New Container Check.
 Change upperbound to 99 and lowerBound to 5
@@ -67,3 +67,11 @@ Final Notes
 If you don't see transcoding happening, it may be because something was named incorrectly.
 I recommend rebooting your system if it doesn't work the first time (it's happened to me too!).
 Go to the very bottom and sort your queue by whatever option you prefer.
+
+I recommend this: For nice encoding with virtually no loss.
+Here is links to my presets in case you want to use pre made ones.
+I found that the movie settings ran better on medium
+
+Different instructions:
+create a folder called presets in C:/Tdarr
+
