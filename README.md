@@ -34,7 +34,7 @@ Configure video settings:
 Video Encoder: AV1 10-bit (NVEnc)
 Framerate: Same as source & Constant Framerate
 Encoder Option: Encoder Present: Slowest (slide right). I chose medium because encoding is much faster.
-I also chose 38 CQ for movies and 35CQ for series with great results. Download my presets at the bottom of this guide if you like.
+I also chose 38 CQ for movies and 35 CQ for series with great results. Download my presets at the bottom of this guide if you like.
 Quality: Your desired setting (note that a lower number results in a larger file size)
 Configure audio settings:
 Codec: E-AC Passthru
